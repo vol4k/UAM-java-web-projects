@@ -1,15 +1,15 @@
-## Zadanie:
+## Task:
 
-Stworzenie niezależnego klienta wykorzystujących REST API dla naszej aplikacji z Projektu 2 (musi byc uruchamiany niezależnie od kodu serwera (backendu)).
+Create an independent client utilizing REST API for our Project 2 application (it must be able to run independently from the server (backend) code).
 
-## Ocena:
+## Evaluation:
 
-- [x] 25% punktów: Aplikacja frontend musi mieć możliwość niezależnego uruchomienia (w odłączeniu od aplikacji serwerowej).
+- [x] 25% of points: The frontend application must be capable of independent execution (separate from the server application).
 
-- [x] 30% punktów: Aplikacja frontend ma umożliwiać edycję, dodawanie, usuwanie danych z bazy danych oraz wyświetlać je w postaci tabeli,
+- [x] 30% of points: The frontend application should allow editing, adding, deleting data from the database, and displaying them in a table format.
 
-- [x] 10% punktów: Ogólny widok tabeli danych powinien być stronnicowany.
+- [x] 10% of points: The overall view of the data table should be paginated.
 
-- [x] 20% punktów: Aplikacja powinna umożliwiać autoryzację w dowolnej formie (własną lub przez zewnętrzny serwer autoryzujący (Google, Facebook itp.)).
+- [x] 20% of points: The application should allow authentication in any form (custom or through an external authentication server (Google, Facebook, etc.)).
 
-- [x] 15% punktów: Dodatkowo aplikacja powinna być rozszerzona o pojedynczy aspekt nie omawiany na zajęciach taki jak : dodanie obsługi "sesji użytkownika", integracja obsługi bazy danych w postaci Liquibase / Flyway, integracja Springa z inną biblioteką, dodanie na froncie elementów dodatkowych (biliotek do wykresów, przechowywania stanu, routingu itp), dodanie testów API do aplikacji, dodanie testów obciążeniowych, dodanie load balancera do Tomcata, każde inne wymyślone przez autora projektu. Student sam wybiera, który aspekt aplikacji chciałby rozszerzyć i w jakim zakresie.
+- [x] 15% of points: Additionally, the application should be extended with a single aspect not discussed in classes, such as: adding user session management, integrating database handling with Liquibase / Flyway, integrating Spring with another library, adding additional elements on the frontend (libraries for charts, state management, routing, etc.), adding API tests to the application, adding load tests, adding a load balancer to Tomcat, or any other aspect imagined by the project author. The student chooses which aspect of the application they would like to extend and to what extent.
