@@ -1,23 +1,23 @@
-## Zadanie:
+## Task:
 
-Napisz program, który wczyta dane na temat stacji pomiarowych dostępne na stronie: https://powietrze.gios.gov.pl/pjp/content/api
+Write a program that will fetch data about measurement stations available on the website: https://powietrze.gios.gov.pl/pjp/content/api
 
-Program powinien wyświetlać listę stacji pomiarowych dostępnych na
+The program should display a list of measurement stations available at
 
 https://api.gios.gov.pl/pjp-api/rest/station/findAll
-oraz pozwolić użytkownikowi (w menu tekstowym) wybrać stację i na podstawie jej ID wybrać informacje szczeółowe na temat pomiarów kierując zapytanie na
+and allow the user (through a text menu) to select a station and based on its ID, retrieve detailed information about the measurements by querying
 
 https://api.gios.gov.pl/pjp-api/rest/aqindex/getIndex/{stationId}
-Wyniki pomiarowe mamy mieć możliwość zapisania w pliku PDF, JSON lub XML. Wykorzystaj dowolną bibliotekę Javy do tworzenia plików PDF. Postać pliku jest dowolna, ma on zawierać podane wyżej informacje, może zawierać też dodatkowe elementy.
+Measurement results should be able to be saved in a PDF, JSON, or XML file. Use any Java library for creating PDF files. The format of the file is arbitrary; it should contain the information mentioned above and can also include additional elements.
 
-Napisz testy do wyrzystywanych metod, skorzystaj obowiązkowo z zamockowania danych dla danych pobieranych z endpointów serwisów.
+Write tests for the used methods, making obligatory use of data mocking for data retrieved from the endpoints of the services.
 
-W programie wykorzystaj strumienie oraz co najmniej dwie struktury danych (set, map, list, stack, etc.).
+In the program, use streams and at least two data structures (set, map, list, stack, etc.).
 
-## Ocena
+## Evaluation
 
-- [x] Testy 20%
-- [x] Strumienie 20%
-- [x] Serializacja i Deserializacja JSON 20%
-- [x] Biblioteka PDF 20%
-- [x] Działanie zgodne ze specyfikacją 20%
+- [x] Tests 20%
+- [x] Streams 20%
+- [x] JSON Serialization and Deserialization 20%
+- [x] PDF Library 20%
+- [x] Compliance with Specification 20%
