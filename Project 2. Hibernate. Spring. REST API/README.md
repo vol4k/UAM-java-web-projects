@@ -1,21 +1,21 @@
-## Zadanie:
+## Task:
 
-Stworzenie programu, który będzie zapisywał i odczytywał określony model danych.
+Create a program that will save and read a specific data model.
 
-Każda osoba musi obmyślić jakiego typu dane chce przechowywać w końcowej aplikacji (informacje o osobach, filmach, autach, piłkarzach, komputerach etc.) Należy zamodelować te dane poprzez określenie pól, tabel i zależności między nimi.
+Each person must decide what type of data they want to store in the final application (information about people, movies, cars, football players, computers, etc.). You need to model this data by specifying fields, tables, and relationships between them.
 
-## Ocena:
+## Evaluation:
 
-- [x] 10% punktów: Dane muszą zawierać co najmniej 4 tabele, jenda relacja OneToOne i jedna relacja OneToMany (lub ManyToMany).
+- [x] 10% of points: The data must include at least 4 tables, one OneToOne relationship, and one OneToMany (or ManyToMany) relationship.
 
-- [x] 25% punktów: Do danych należy stworzyć zapytania (najlepiej użyteczne w docelowym projekcie). Zapytań musi być co najmniej 3, ~~co najmniej jedno powinno być stworozne jako zapytanie @Query z parametrem~~. Każde zapytanie powinno być odrębną metodą w serwisie. Jedno z zapytań musi być stronicowane.
+- [x] 25% of points: Queries should be created for the data (preferably useful in the final project). There must be at least 3 queries, ~~at least one should be created as a @Query with a parameter~~. Each query should be a separate method in the service. One of the queries must be paginated.
 
-- [x] 25% punktów: Należy użyć w projekcie pola do zapisu daty - najlepiej ZonedDateTime lub JodaTime.
+- [x] 25% of points: You should use fields to store dates - preferably ZonedDateTime or JodaTime.
 
-- [x] 20% punktów: Program powinien posiadać endpointy REST-owe do tworzenia, odczytu, edycji, usuwania obiektów z bazy danych,
+- [x] 20% of points: The program should have REST endpoints for creating, reading, editing, and deleting objects from the database.
 
-- [x] 20% punktów: Aplikacja powinna wykorzystywać bazę danych nie zapisywaną w pamięci, czyli np. PostgreQSL, MyQSL, ORACLE itp.
+- [x] 20% of points: The application should use a database not stored in memory, such as PostgreQSL, MySQL, ORACLE, etc.
 
-Nie trzeba tworzyć żadnego menu do projektu, testowanie może odbywać się poprzez Postmana / Swagera lub poprzez napisanie testów w kodzie aplikacji.
+There is no need to create any menu for the project; testing can be done through Postman / Swagger or by writing tests in the application code.
 
-Uwaga! Odczyt i zapis powinien się powodzić w przypadku podania częściowych danych (pewne pola puste) oraz niepowodzić w przypadku podania nieprawidłowych danych.
+Note! Reading and writing should succeed when partial data is provided (some fields empty) and fail when invalid data is provided.
